@@ -1,0 +1,34 @@
+.numDiv{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width:50vw;
+}
+.inputBody input{
+  background-color: #000;
+  color: #fff;
+  width:50vw;
+}
+.btnBody{
+  display: flex;
+  width: 50vw;
+}
+.btnBody button{
+  width:100%;
+}
+
+.actionDiv{
+  display:flex;
+  flex-direction: column;
+}
+.actionDiv > button{
+  color:blue;
+  background-color: rgb(255, 255, 152);
+}
+.clrBtn{
+  background-color: red;
+  color:white;
+}
+.calBtn{
+  background-color: Green;
+  color:black;
+}
